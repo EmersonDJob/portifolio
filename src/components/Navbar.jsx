@@ -14,17 +14,17 @@ const Navbar = () => {
           {/* logo section */} 
           <div className='flex gap-2 '>
             <p className='text-white text-xl font-extrabold '>EMERSON</p>
-            <p className='text-blue-500  text-xl font-extrabold'>LEME</p> 
+            <p className='text-blue-500  text-xl font-extrabold '>LEME</p> 
           </div>
            {/* Menu section */}
           <nav className=' hidden md:block'>
             <ul className='flex gap-7 text-xl items-center font-semibold text-white'>
                 <a href='/' ><li className='cursor-pointer'>Home</li></a> 
                 <a href='#about' ><li className='cursor-pointer'>About</li></a> 
-                <a href='#education' ><li className='cursor-pointer'>Education & Exprerience</li></a> 
+                <a href='#education' ><li className='cursor-pointer'>Education & Experience</li></a> 
                 <a href='#project' ><li className='cursor-pointer'>Projects</li></a> 
                 <a href='#contact'><button className='px-3 py-1 cursor-pointer rounded-md bg-blue-500 text-white flex items-center gap-1 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]
-                shadow-blue-500 border-blue-400 border-2'>Contacts<SlAnchor /></button></a>
+                shadow-blue-500 border-blue-400 border-2 hover:bg-blue-600'>Contacts<SlAnchor /></button></a>
             </ul>
           </nav>
           <div className='md:hidden text-white text-4xl'>
