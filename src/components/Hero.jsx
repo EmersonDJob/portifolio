@@ -1,31 +1,20 @@
 import React from 'react'
 import { FaDownload, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import Profile from '../assets/profile.png'
+import N1 from '../assets/N1.png'
 import { motion } from 'framer-motion'
 
 
 const Hero = () => {
   return (
     <section className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-start relative z-10 pb-10 '>
-      <div>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-
-      </div>
+      
       <div className='max-w-7xl mt-24 mx-auto items-center flex flex-col md:flex-row gap-16 md:gap-40 justify-between'>
         <div className='md:space-y-6 px-4'>
           <motion.h1
           initial={{opacity:0, x:-100}}
           whileInView={{opacity:1, x:0}}
           transition={{duration:1, delay:0.2}}
-          className='md:text-6xl text-4xl font-bold mb-4 ' >Hi, I'm <p className='text-blue-400'>Emerson</p>Leme  </motion.h1>
+          className='md:text-6xl text-4xl font-bold mb-4 ' >Olá, Meu nome é<p className='text-blue-400'>Emerson</p>Leme  </motion.h1>
           
           <motion.p
           initial={{opacity:0, x:-100}}
@@ -56,7 +45,7 @@ const Hero = () => {
            initial={{opacity:0,scale:0.5}}
            whileInView={{opacity:1, scale:1}}
            transition={{duration:1.6, delay:0.6}}  
-          src={Profile} alt='' className=' rounded-full border border-blue-600 md:w-[300px] w-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'/>
+          src={N1} alt='' className=' rounded-full border border-blue-600 md:w-[300px] w-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'/>
 
 
         </div>

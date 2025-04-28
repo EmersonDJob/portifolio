@@ -18,12 +18,12 @@ const ResponsiveMenu = ({showMenu,setShowMenu}) => {
             </div>
             <nav className='mt-12'>
                 <ul className='flex flex-col gap-7 text-lg font-semibold text-white'>
-                    <a href='/'><li className='cursor-pointer'>Home</li></a>
-                    <a href='#about'><li className='cursor-pointer' onClick={()=> setShowMenu(false)}>About</li></a>
-                    <a href='#education'><li className='cursor-pointer'onClick={()=> setShowMenu(false)}>Education & Experience</li></a>
-                    <a href='#projects'><li className='cursor-pointer' onClick={()=> setShowMenu(false)}>Projects</li></a> 
+                    <a href='/'><li className='cursor-pointer'>Inicio </li></a>
+                    <a href='#about'><li className='cursor-pointer' onClick={()=> setShowMenu(false)}>Sobre</li></a>
+                    <a href='#education'><li className='cursor-pointer'onClick={()=> setShowMenu(false)}>Educação e experiências</li></a>
+                    <a href='#projects'><li className='cursor-pointer' onClick={()=> setShowMenu(false)}>Projetos</li></a> 
                     <a href='#contact'><button className='px-3 py-1 cursor-pointer rounded-md bg-blue-500 text-white flex items-center gap-1 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]
-                     shadow-blue-500 border-blue-400 border-2'>Contacts<SlAnchor /></button></a>                 
+                     shadow-blue-500 border-blue-400 border-2'>Contatos<SlAnchor /></button></a>                 
                 </ul>
             </nav>
         </div>
