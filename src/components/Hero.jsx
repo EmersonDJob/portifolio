@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaDownload, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import N1 from '../assets/N1.png'
+import N1 from '../assets/eu.png'
 import { motion } from 'framer-motion'
 
 
