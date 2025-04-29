@@ -4,7 +4,7 @@ import { FaChevronRight } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <div className='py-20 bg-gray-900 z-50 text-gray-300'>
+    <div className='py-20 bg-gray-900 z-50 text-gray-300' id='about'>
         <div className='max-w-7xl mx-auto px-4'>
             <h2 className='text-4xl md:text-5xl font-bold mb-11 text-center'>Um pouco sobre mim </h2>
             <div className='flex flex-col md:flex-row gap-20 items-center'>

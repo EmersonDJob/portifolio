@@ -15,13 +15,13 @@ const ContactMe = () => {
                     <p className='text-gray-300 my-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, ab. Iusto beatae doloribus ut sunt voluptatem fuga mollitia dicta illum!</p>
                     <h3 className='text-2xl font-semibold text-gray-300'>Email</h3>
                     <p className='text-gray-600 mt-2'>
-                        <a href="#" className='text-blue-500 hover:underline'>emersondinizleme@example.com</a>
+                        <a href="#" className='text-blue-500 hover:underline'>emersondinizleme@gmail.com</a>
                     </p>
                 </div>
                 <div>
                     <h3 className='text-2xl font-semibold text-gray-300'>Whatsapp</h3>
                     <p className='text-gray-600 mt-2'>
-                        <a href="#" className='text-blue-500 hover:underline'>+123 456 7890</a>
+                        <a href="#" className='text-blue-500 hover:underline'>+55 067 99946-8759</a>
                     </p>
                 </div>
                 <div>
@@ -39,12 +39,12 @@ const ContactMe = () => {
                 <h3 className='text-3xl font-semibold text-gray-300 mb-6'>Entre em contato</h3>
                 <form action="" className='space-y-6'>
                     <div>
-                        <label htmlFor="name" className='block text-sm font-medium text-gray-300'>Nome</label>
+                        <label htmlFor="name" className='block text-sm font-medium text-gray-300' >Nome</label>
                         <input 
                         type="email" 
-                        id='email' 
+                        id='email'                        
                         className='mt-1 w-full p-3 border bg-gray-950 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
-                        placeholder='Your Email' 
+                        placeholder='Nome' 
                         />
                     </div>
                     <div>
@@ -53,7 +53,7 @@ const ContactMe = () => {
                         type="text" 
                         id='name' 
                         className='mt-1 w-full p-3 border bg-gray-950 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
-                        placeholder='Your Name' 
+                        placeholder='E-mail' 
                         />
                     </div>
                     <div>
@@ -62,9 +62,9 @@ const ContactMe = () => {
                         id="messsage" 
                         rows={5} 
                         className='mt-1 w-full p-3 border bg-gray-950 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500' 
-                        placeholder='Your Message'></textarea>
+                        placeholder='Mensagem'></textarea>
                     </div>
-                    <button type='submit'className='w-full bg-blue-500 text-white py-3 rounded-lg shadow-md hover:bg-blue-600 transition-colors'>Send Message</button>
+                    <button type='submit'className='w-full bg-blue-500 text-white py-3  rounded-lg shadow-md hover:bg-blue-600 transition-colors'>Enviar</button>
                 </form>
             </div>
         </div>
